@@ -1,0 +1,48 @@
+
+.login-module {
+    width: 400px;
+    padding: 20px 50px;
+    margin: 100px auto 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+.login-form-header {
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.login-form-forgot {
+  float: right;
+}
+.account-form-button {
+  width: 100%;
+}
+
+
+
+.wrap-register,
+.reset-pwd-module {
+    width: 400px;
+    margin: 100px auto 0;
+}
+
+.register-module,
+.success-module {
+    &.show {
+        display: block;
+    }
+    &.hide {
+        display: none;
+    }
+}
+
+.success-module {
+
+    .complete-text {
+        font-size: 18px;
+        text-align: center;
+    }
+}
