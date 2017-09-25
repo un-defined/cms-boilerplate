@@ -115,6 +115,7 @@ class App extends Component {
         }
     }
     render() {
+        console.log( 'Route index' );
         return (
             <Router>
                 {this.renderLayoutPage()}
