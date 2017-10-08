@@ -5,6 +5,9 @@
   "dependencies": {
     "antd": "^2.13.2",
     "fetch-detector": "^1.0.1",
+    "koa": "^2.3.0",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.2.1",
     "lazy-route": "^1.0.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
